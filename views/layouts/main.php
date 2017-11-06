@@ -50,7 +50,7 @@ AppAsset::register($this);
                     ['label'=>'Создать задачу', 'url'=>['/task/create']]
                 ],
             ],
-           
+
         ],
     ]);
     NavBar::end();
