@@ -41,7 +41,7 @@ AppAsset::register($this);
             ['label'=>'Категории задач',
             'items'=>[
                     ['label'=>'Просмотр категорий','url'=>['/task-category']],
-                    ['label'=>'Создать категорию', 'url'=>['/task-category/create']]
+
             ],
             ],
             ['label'=>'Задачи',
@@ -50,7 +50,7 @@ AppAsset::register($this);
                     ['label'=>'Создать задачу', 'url'=>['/task/create']]
                 ],
             ],
-           
+
         ],
     ]);
     NavBar::end();
